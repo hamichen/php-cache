@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Skar\Cache\Exception;
+namespace Hami\Cache\Exception;
 
 use Exception;
 use \Psr\Cache\InvalidArgumentException as InvalidArgumentExceptionInterface;
@@ -9,7 +9,7 @@ use \Psr\Cache\InvalidArgumentException as InvalidArgumentExceptionInterface;
 /**
  * Class InvalidArgumentException
  *
- * @package Skar\Cache
+ * @package Hami\Cache
  */
 class InvalidArgumentException extends Exception implements InvalidArgumentExceptionInterface {
 }

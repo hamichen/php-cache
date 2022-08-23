@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Skar\Cache\Storage\Adapter;
+namespace Hami\Cache\Storage\Adapter;
 
 use Predis\Client;
 
 /**
  * Class Predis
  *
- * @package Skar\Cache
+ * @package Hami\Cache
  */
 class Predis implements AdapterInterface {
 	/**

@@ -1,13 +1,13 @@
 {
-	"name": "skar/php-cache",
+	"name": "Hami/php-cache",
 	"type": "library",
 	"description": "PSR-6 Cache Library",
 	"license": "BSD-3-Clause",
 	"authors": [
 		{
-			"name": "Skar",
-			"email": "sskarr@gmail.com",
-			"homepage": "https://github.com/skar"
+			"name": "Hami",
+			"email": "sHamir@gmail.com",
+			"homepage": "https://github.com/Hami"
 		}
 	],
 	"provide": {
@@ -15,7 +15,7 @@
 	},
 	"require": {
 		"psr/cache": "^1.0",
-		"php": "^7.4 || ^8.0"
+		"php": "^7.4 || ^8.0 || ^8.1"
 	},
 	"require-dev": {
 		"predis/predis": "^1.1",
@@ -26,12 +26,12 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Skar\\Cache\\": "src"
+			"Hami\\Cache\\": "src"
 		}
 	},
 	"autoload-dev": {
 		"psr-4": {
-			"Skar\\Cache\\Test\\": "test"
+			"Hami\\Cache\\Test\\": "test"
 		}
 	}
 }

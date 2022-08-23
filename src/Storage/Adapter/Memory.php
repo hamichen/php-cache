@@ -1,12 +1,12 @@
 <?php
 declare(strict_types=1);
 
-namespace Skar\Cache\Storage\Adapter;
+namespace Hami\Cache\Storage\Adapter;
 
 /**
  * Class Memory
  *
- * @package Skar\Cache
+ * @package Hami\Cache
  */
 class Memory implements AdapterInterface {
 	/**

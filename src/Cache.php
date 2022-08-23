@@ -1,18 +1,18 @@
 <?php
 declare(strict_types=1);
 
-namespace Skar\Cache;
+namespace Hami\Cache;
 
 use Psr\Cache\CacheItemInterface;
 use Psr\Cache\CacheItemPoolInterface;
 use Psr\Cache\InvalidArgumentException;
-use Skar\Cache\Storage\Adapter\AdapterInterface;
-use Skar\Cache\Exception;
+use Hami\Cache\Storage\Adapter\AdapterInterface;
+use Hami\Cache\Exception;
 
 /**
  * Class Cache
  *
- * @package Skar\Cache
+ * @package Hami\Cache
  */
 class Cache implements CacheItemPoolInterface {
 	/**
@@ -204,7 +204,7 @@ class Cache implements CacheItemPoolInterface {
 	 */
 	public function save(CacheItemInterface $item): bool {
 		if (!$item instanceof Item) {
-			throw new Exception\InvalidArgumentException('Skar\\Cache\\Item type expected');
+			throw new Exception\InvalidArgumentException('Hami\\Cache\\Item type expected');
 		}
 
 		return $this->adapter->save($item->getKey(), $item->get(), $item->getTtl());

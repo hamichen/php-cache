@@ -1,18 +1,18 @@
 <?php
 declare(strict_types=1);
 
-namespace Skar\Cache;
+namespace Hami\Cache;
 
 use DateInterval;
 use DateTime;
 use DateTimeInterface;
 use Psr\Cache\CacheItemInterface;
-use Skar\Cache\Exception\InvalidArgumentException;
+use Hami\Cache\Exception\InvalidArgumentException;
 
 /**
  * Class Item
  *
- * @package Skar\Cache
+ * @package Hami\Cache
  */
 class Item implements CacheItemInterface {
 	/**
