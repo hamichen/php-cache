@@ -1,5 +1,5 @@
 {
-	"name": "Hami/php-cache",
+	"name": "hamichen/php-cache",
 	"type": "library",
 	"description": "PSR-6 Cache Library",
 	"license": "BSD-3-Clause",
